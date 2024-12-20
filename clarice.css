@@ -1,0 +1,322 @@
+:root {
+    --text-color :#0000ff;
+    --light-text-color :#00bfff;
+    --white:#ffffff;
+    --Primary-color-dark :#000000;
+    --Primary-color-light :#28231D;
+    --max-width : 1500px;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family:sans-serif;
+    background-color : var(--Primary-color-dark);
+}
+.seccontainer{
+    max-width:var(--max-width);
+    background-color:var(--Primary-color-light) ;
+    padding-left: 3rem;
+    margin-top:20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+nav{
+    max-width:var(--max-width);
+    margin:auto;
+    display:flex;
+    align-items:center;
+    Justify-content:space-between;
+    background-color: var(--Primary-color-light);
+}
+.name{
+    max-width: 200px;
+    padding-left: 10px;
+}
+.P_Clarice{
+    font-weight:1000;
+    color:var(--text-color);
+}
+.list-item{
+    list-style:none;
+    display:flex;
+    align-items:center;
+    gap:3rem;
+    padding-right: 20px;
+}
+.list a{
+    position: relative;
+    padding-bottom: 0.75rem;
+    color: var(--white);
+}
+.header{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-gap: 20rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items:center;
+}
+.head_container{
+    display:flex;
+    flex-direction: column;
+    gap:1.5rem;
+}
+.head{
+    font-size:2rem;
+    color:var(--white);
+
+}
+.num{
+    font-size: 3rem;
+    font-weight: 700;
+    color:var(--light-text-color);
+}
+.num span{
+    background:linear-gradient(to right,blue,purple,violet);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.btn{
+    background:linear-gradient(to right,blue,purple,violet);
+    border:none;
+    padding: 1rem 2rem; 
+    color:#ffffff;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: var(--navy-blue);
+}
+.image_container{
+    width: 200px;
+    padding-right: 10px;
+    padding-left: 100px;
+}
+.image_container img{
+    max-width: 100%;
+    width: 200px;
+    border-radius: 10px;
+}
+.about{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-gap: 10rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items:center;
+}
+.aboutme{
+    display:flex;
+    flex-direction: column;
+    gap:1.5rem;
+}
+.aboutme h2{
+    font-size: 1rem;
+    font-weight: 500;
+    color:var(--text-color);
+}
+.aboutme p{
+    font-size: 1rem;
+    color: var(--light-text-color);
+}
+.aboutme span{
+    background:white;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.image_photo{
+    padding-right: 10px;
+    padding-left: 100px;
+}
+.image_photo img{
+    max-width: 100%;
+    width: 700px;
+    height: 300px;
+    border-radius: 10px;
+}
+.Resume{
+    background-color: var(--Primary-color-light);
+    max-width:  var(--max-width);
+    margin-top:  10px;
+    padding-top: 10px;
+    padding-bottom: 10px;  
+}  
+.resume{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.My-Resume{
+    display:flex;
+    flex-direction: column; 
+    gap:0.5rem;
+}
+.Resume h1{
+    font-size: 1rem;
+    font-weight: 500;
+    color:var(--text-color);
+    align-items: center;
+    text-align: center;
+}
+   .My-Resume h4{
+    font-size:  2rem;
+    font-weight:  100;
+    color: var(--text-color);
+    padding-left:  1rem;
+    padding-top:  3rem;
+
+   } 
+
+.My-Resume p{
+    font-size: 1rem;
+    color: var(--light-text-color);
+    gap:  1rem;
+}
+.My-Resumes span{
+    background:white;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.experience .timeline{
+    list-style: none;
+    position: relative;
+    padding-left: 1rem;
+}
+.experience .timeline:before{
+    content: "";
+    position: absolute;
+    left: 0.5rem;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: #ffffff;
+}
+
+.timeline li{
+    margin-bottom: 2rem;
+    position: relative;
+}
+.timeline li h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+.timeline li p{
+    font-size: 1rem;
+    color: #ccc;
+}
+.timeline li:before{
+    content:'';
+    position: absolute;
+    left: -0.8rem;
+    top: 0.4rem;
+    width: 10px;
+    height: 10px;
+    background: #ff9900;
+    border-radius :50%;
+}
+.Image{
+    background-color: var(--Primary-color-light);
+    max-width:  var(--max-width);
+    margin-top:  10px;
+    padding-top: 5px;
+    padding-bottom: 10px;  
+}
+.Image h1{
+    text-align: center;
+}
+.Dresses{
+    display:flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 5px;
+}
+.Dresses span{
+    cursor: pointer;
+    font-size: 1rem;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+.Dresses span:hover{
+    color: #ff9900;
+
+
+}
+.dress_image{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 1rem;
+    justify-content: center;
+    align-items: stretch;
+}
+.item{
+    background-color:#0000ff ;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgbaC0,0,0,05;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.item:hover{
+    transform: scale(1.5);
+}
+.item img{
+    width:100% ;
+    height:250px ;
+}
+.price_details{
+    padding: 1rem;
+    text-align: center;
+}
+.price_details p{
+    margin: 0.5rem;
+}
+.price{
+    font-size: 1rem;
+    color: aqua;
+    font-weight: 600;
+}
+.footer{
+    background-color: var(--Primary-color-light);
+    max-width:  var(--max-width);
+    margin-top:  10px;
+    padding-top: 5px;
+    padding-bottom: 10px;    
+}
+.bassacco{
+    display: flex;
+    align-items: center;
+    padding: 5px 6px;
+    gap: 2rem;
+}
+.bassacco p{
+    color: #ffffff;
+}
+.bassacco span{
+    font-size: 2rem;
+}
+.bassacco a{
+    font-size: 2rem;
+}
+
+.footer-bar{
+    width: var(--max-width);
+    margin: auto;
+    padding: 1rem;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #ff9900;
+}
+
+
+
+
+
